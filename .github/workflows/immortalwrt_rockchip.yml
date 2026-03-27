@@ -6,7 +6,7 @@ on:
 env:
   REPO_URL: https://github.com/DHDAXCW/immortalwrt
   REPO_BRANCH: openwrt-24.10
-  CONFIG_FILE: immortalwrt/rockchip/defconfig
+  CONFIG_FILE: configs/rk3128-cups.config
   DIY_P1_SH: immortalwrt/diy-part1.sh
   DIY_P2_SH: immortalwrt/diy-part2.sh
   UPLOAD_FIRMWARE: true
